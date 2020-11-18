@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: solid rgb(255, 239, 21) 7px;
+    background-color: #111111;
+}
+
+hr {
+  width: 100%;
+  position: relative;
+  border: 0;
+  color: rgb(255, 239, 21);
+  top: 80px;
+  height: 7px;
+  background-color: rgb(255, 239, 21);
+}
+
+.name {
+  text-decoration: underline;
+  font-family: 'Play', sans-serif;
+  color: white;
+}
