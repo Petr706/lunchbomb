@@ -1,22 +1,42 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: solid rgb(255, 239, 21) 7px;
-    background-color: #111111;
+  margin: 0;
+  padding: 0;
+  border: solid rgb(255, 239, 21) 7px;
+  background-color: #111111;
 }
 
-hr {
-  width: 100%;
-  position: relative;
-  border: 0;
-  color: rgb(255, 239, 21);
-  top: 80px;
-  height: 7px;
-  background-color: rgb(255, 239, 21);
+@font-face {
+  font-family: font;
+  src: url("font.otf");
+}
+
+header {
+  height: 80px;
+  border-bottom: 7px solid #ffef15;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-self: flex-start;
 }
 
 .name {
-  text-decoration: underline;
-  font-family: 'Play', sans-serif;
+  text-decoration: none;
   color: white;
+  margin-left: 70px;
+  font-family: font;
+  font-size: 50px;
+}
+
+.logo {
+  display: block;
+  max-width: 80px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
